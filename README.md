@@ -1,0 +1,1 @@
+This is a fork of the [DKIM-Reputation Open Data Project Registered Domain Libraries](http://www.dkim-reputation.org/regdom-libs/) PHP libraries.
