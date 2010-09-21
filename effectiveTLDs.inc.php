@@ -3757,4 +3757,5 @@ $tldTree = array('ac' => array('com' => array(),
 'za' => array('*' => array()),
 'zm' => array('*' => array()),
 'zw' => array('*' => array()));
+return $tldTree;
 ?>
