@@ -206,7 +206,8 @@ if ($format == "c") {
 	}
 	printNode("\$tldTree", $tldTree, TRUE);
 	echo ";\n";
-	if ($format == "php") echo '?>';
+	if ($format == "php")
+		echo "return \$tldTree;\n?>";
 
 }
 
