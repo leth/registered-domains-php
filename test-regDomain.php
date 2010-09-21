@@ -23,7 +23,7 @@
  * Florian Sager, 25.07.2008, sager@agitos.de
  */
 
-require_once("effectiveTLDs.inc.php");
+$tldTree = require_once("effectiveTLDs.inc.php");
 require_once("regDomain.inc.php");
 
 if ($_SERVER["argc"]<2) {
