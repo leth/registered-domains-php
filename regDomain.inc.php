@@ -33,9 +33,7 @@
  * This function returns NULL if $signingDomain is TLD itself
  */
 
-function getRegisteredDomain($signingDomain) {
-
-	global $tldTree;
+function getRegisteredDomain($signingDomain, $tldTree) {
 
 	$signingDomainParts = split('\.', $signingDomain);
 
