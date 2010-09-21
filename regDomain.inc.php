@@ -78,4 +78,3 @@ function findRegisteredDomain($remainingSigningDomainParts, &$treeNode) {
 	return NULL;
 }
 
-?>
