@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * Calculate the effective registered domain of a fully qualified domain name.

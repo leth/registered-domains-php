@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * Florian Sager, 06.08.2008, sager@agitos.de
@@ -151,7 +151,7 @@ $list = file_get_contents(URL);
 $lines = explode("\n", $list);
 $licence = TRUE;
 
-if ($format == "php") echo "<?\n";
+if ($format == "php") echo "<?php\n";
 
 foreach ($lines as $line) {
 
